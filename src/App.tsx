@@ -9,7 +9,7 @@ function App() {
 
 
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: React.MouseEvent<HTMLButtonElement>) => {
     let inputValue = e.target.value
     setValue(inputValue)
   }
